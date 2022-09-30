@@ -14,7 +14,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/appweb/" element={<LayoutHome></LayoutHome>}></Route>
+          <Route path="/appweb-/" element={<LayoutHome></LayoutHome>}></Route>
             <Route path="/SingIn" element={<LayoutSingIn></LayoutSingIn>}></Route>
         </Routes>
       </BrowserRouter>
